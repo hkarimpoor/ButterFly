@@ -1,0 +1,14 @@
+﻿body {
+    background-color:#fff;
+}
+.metrouicss .page {
+    width: 980px ;
+    margin: auto;
+    background-color:#fff;
+}
+hr {
+    border: 0;
+    border-bottom: 1px #ddd dotted;
+    color: #ddd;
+    background-color: #ddd;
+}

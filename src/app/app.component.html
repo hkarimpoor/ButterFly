@@ -11,56 +11,13 @@
                  <img src="assets/images/logo.png"/>
                 <img src="assets/images/children_pic2.png" style="position: relative; top: 70px; z-index: 1000; right: -10px;" />
             </div>
-        </div>
-       
-        <div class="page-sidebar" style="margin-top: 20px"></div>
+        </div>    
+         
+        <app-sidebar></app-sidebar>        
 
         <div class="page-region">
             <div class="page-region-content">                                         
-              <div class="tile  triple-vertical  bg-color-magenta" style="cursor: default">
-                  <div class="tile-content">
-                      <h1 style="margin-top: 30px; font-size: 28px;">Hello!</h1>
-                      <h1 style=" font-size: 28px;">.............................</h1><br />
-                      <p>I understand how difficult it is to go off to work leaving the children in someone else's care. I can make it easier and worry-free day for you knowing that your child will be well taken care of.
-  I am a qualified educator with an Attestation in Early Childhood Education from lasalle College. I have a good educational background in Nutrition and Dietetics and with several years of experience in a large daycare facility as an educator.
-  I provide a warm and nurturing family home environment with close supervision and good quality care. I will provide your child with tender loving care, understanding, patience and guidance in a happy family setting.</p>
-                  
-                    </div>
-                  
-              </div>
-              <div class="tile  triple-vertical bg-color-pink" style="overflow: visible; cursor: default;">
-                    <div class="tile-content">
-                        <h2 style="margin-top: 30px;font-size: 26px;">Daycare Features</h2>
-                        <h2 style="font-size: 28px;">.............................</h2><br />
-                        <ul>
-                                  <li>Full-time spaces</li>
-                                    <li>Air Conditioned</li>
-                                  <li>Cook Onsite</li>
-                                  <li>Licensed centre</li>
-                                  <li>Playground available</li>
-                                    <li>nutritious snacks</li>
-                                    <li>lunch in clean and safe environment</li>
-                                    <li>painting music dance crafting exercise</li>
-                        </ul>
-                        <h2 style="font-size: 26px;">Age Group</h2>
-                        <h2 style="font-size: 28px;">..................</h2>
-                        <ul>
-                                  <li>Infant </li>
-                                  <li>Toddler</li>
-                                  <li>Preschool</li>
-                        </ul>
-                    </div>   
-              </div>
-              <div class="tile  triple-vertical  bg-color-yellow" style="overflow: visible; cursor: default;">
-                  <div class="tile-content">
-                      <h2 style="margin-top: 30px;font-size: 26px;">Gallery Photo</h2>
-                      <h2 style="font-size: 28px;">.............................</h2><br />
-                      <img src="assets/images/page1pic1.png"/>
-                      <a class="button bg-color-red" style="margin-left: 55px"  [routerLink]="['/gallery']"><strong class="bg-color-red">MORE</strong></a>
-                  </div>
-              </div>
-              <img src="assets/images/children_pic1.png" style="  left:-20px; position: absolute; top:420px; z-index: 1000;" />
-              <img src="assets/images/children_pic3.png"    style="  left:520px; position: absolute; top:420px; z-index: 1000;" />                   
+                <router-outlet></router-outlet>
             </div>
         </div>
 </div>
@@ -70,7 +27,3 @@
 </div>
 
 
-  
-
-
-<router-outlet></router-outlet>

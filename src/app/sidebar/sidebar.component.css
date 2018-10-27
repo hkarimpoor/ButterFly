@@ -1,0 +1,19 @@
+.facebookWrapper {
+    text-align: center;
+    margin: 10px auto; 
+    color: white;   
+}
+.facebookWrapper a {
+    color: white;
+    background: #4267b2;
+    width: 50px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 9px;
+}
+.facebookWrapper a span {
+    margin: 0;
+    padding: 0;    
+}

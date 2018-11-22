@@ -12,6 +12,7 @@ import { IranianServicesComponent } from './iranian-services/iranian-services.co
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [ 
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   { path : 'home', component : HomeComponent},
   { path : 'about', component : AboutComponent},
   { path : 'schedules', component : SchedulesComponent},
@@ -26,7 +27,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,19 +1,45 @@
-.facebookWrapper {
-    text-align: center;
-    margin: 10px auto; 
-    color: white;   
+.socialIconWrapper a {
+    display: inline-block;
+ }
+ .socialIconWrapper a.facebookLink {  
+     display: inline-block;
+    background-image: url('../../assets/images/socialLogos.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 3% 7%;
+    border-radius: 50%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+
 }
-.facebookWrapper a {
-    color: white;
-    background: #4267b2;
-    width: 50px;
-    margin: 0 auto;
-    height: 50px;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: 9px;
+.socialIconWrapper a.facebookLink:hover {
+    background-color: transparent !important;
 }
-.facebookWrapper a span {
-    margin: 0;
-    padding: 0;    
+
+.socialIconWrapper a.instagramLink {  
+    display: inline-block;
+    background-image: url('../../assets/images/socialLogos.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 50% 7%;
+    border-radius: 50%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+
 }

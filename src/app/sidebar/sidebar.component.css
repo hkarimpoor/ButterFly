@@ -20,7 +20,8 @@
     white-space:nowrap;
 
 }
-.socialIconWrapper a.facebookLink:hover {
+.socialIconWrapper a.facebookLink:hover,
+.socialIconWrapper a.instagramLink:hover {
     background-color: transparent !important;
 }
 
